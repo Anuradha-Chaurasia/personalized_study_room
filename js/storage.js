@@ -1,0 +1,1 @@
+window.Store={get(k,f){try{return JSON.parse(localStorage.getItem('haven_'+k))??f}catch{return f}},set(k,v){localStorage.setItem('haven_'+k,JSON.stringify(v))},clear(){Object.keys(localStorage).filter(k=>k.startsWith('haven_')).forEach(k=>localStorage.removeItem(k))}};
