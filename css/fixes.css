@@ -1,7 +1,0 @@
-/* Ensure modal panels honour their HTML hidden state in every browser. */
-*[hidden],
-.focus-overlay[hidden],
-.settings-drawer[hidden],
-.scene-menu[hidden] { display: none !important; }
-.notes-card.pinned { border-color: var(--accent); box-shadow: 0 0 0 1px var(--glow), 0 18px 42px rgba(0,0,0,.18); }
-.notes-card.pinned #pinNote { color: var(--accent-soft); font-weight: 700; }
